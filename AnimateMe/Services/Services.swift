@@ -10,4 +10,6 @@ import Foundation
 struct Services {
 	static let loginService = LoginService()
 	static let dataService = DataService()
+    
+    static let delay = 3
 }

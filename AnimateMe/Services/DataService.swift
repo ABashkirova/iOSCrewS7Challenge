@@ -18,7 +18,7 @@ struct DataItem {
 final class DataService {
 
 	func get(_ completion: @escaping ([DataItem]) -> Void) {
-		let deadlineTime = DispatchTime.now() + .seconds(3)
+		let deadlineTime = DispatchTime.now() + .seconds(Services.delay)
 		DispatchQueue.main.asyncAfter(deadline: deadlineTime) {
 			completion([
 				DataItem(

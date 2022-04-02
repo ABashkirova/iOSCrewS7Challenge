@@ -1,0 +1,20 @@
+PODS:
+  - BRQBottomSheet (0.0.1)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - BRQBottomSheet
+  - SnapKit (~> 5.0.0)
+
+SPEC REPOS:
+  trunk:
+    - BRQBottomSheet
+    - SnapKit
+
+SPEC CHECKSUMS:
+  BRQBottomSheet: 296a1772d34cd64b9cc3b9d494cde86f96b60999
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: 229658f308b2ea5caff6a4ecb7a179e7a6cf14dd
+
+COCOAPODS: 1.11.0

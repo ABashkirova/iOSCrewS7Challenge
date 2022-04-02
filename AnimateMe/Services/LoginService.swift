@@ -10,7 +10,7 @@ import Foundation
 final class LoginService {
 
 	func login(login: String, password: String, completion: @escaping (Bool) -> Void ) {
-		let deadlineTime = DispatchTime.now() + .seconds(3)
+		let deadlineTime = DispatchTime.now() + .seconds(Services.delay)
 		DispatchQueue.main.asyncAfter(deadline: deadlineTime) {
 			completion(login == "podlodka" && password == "12345")
 		}
